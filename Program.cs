@@ -1,3 +1,7 @@
+using System.Net.Sockets;
+using System.Net;
+using System.Text;
+
 namespace PRI_lab4
 {
     internal static class Program
@@ -12,6 +16,13 @@ namespace PRI_lab4
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+            //while (true)
+            //{
+            //    IPEndPoint serverResponseEndPoint = new IPEndPoint(IPAddress.Any, 0);
+            //    byte[] serverResponseBytes = Form1.udpClient.Receive(ref serverResponseEndPoint);
+            //    string serverResponse = Encoding.ASCII.GetString(serverResponseBytes);
+            //    MessageBox.Show($"Ответ от сервера: {serverResponse}");
+            //}
         }
     }
 }

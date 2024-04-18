@@ -30,14 +30,16 @@
         {
             textBox1 = new TextBox();
             label1 = new Label();
-            label2 = new Label();
             textBox2 = new TextBox();
             button1 = new Button();
+            textBox3 = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(140, 19);
+            textBox1.Location = new Point(59, 22);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 0;
@@ -45,24 +47,15 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(31, 22);
+            label1.Location = new Point(31, 25);
             label1.Name = "label1";
             label1.Size = new Size(22, 20);
             label1.TabIndex = 1;
             label1.Text = "ip";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(3, 55);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 20);
-            label2.TabIndex = 3;
-            label2.Text = "text for receiving";
-            // 
             // textBox2
             // 
-            textBox2.Location = new Point(140, 52);
+            textBox2.Location = new Point(140, 302);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(348, 90);
@@ -70,7 +63,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(255, 148);
+            button1.Location = new Point(257, 398);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 4;
@@ -78,11 +71,39 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(140, 75);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(348, 221);
+            textBox3.TabIndex = 5;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 329);
+            label2.Name = "label2";
+            label2.Size = new Size(121, 20);
+            label2.TabIndex = 3;
+            label2.Text = "text for receiving";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(276, 29);
+            label3.Name = "label3";
+            label3.Size = new Size(98, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Chat Window";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(textBox3);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(textBox2);
@@ -98,8 +119,10 @@
 
         private TextBox textBox1;
         private Label label1;
-        private Label label2;
         private TextBox textBox2;
         private Button button1;
+        private TextBox textBox3;
+        private Label label2;
+        private Label label3;
     }
 }
