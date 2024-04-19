@@ -1,5 +1,0 @@
-C:\Users\user\source\repos\PRI_lab4\bin\Release\net6.0-windows\publish\PRI_lab4.exe
-C:\Users\user\source\repos\PRI_lab4\bin\Release\net6.0-windows\publish\PRI_lab4.dll
-C:\Users\user\source\repos\PRI_lab4\bin\Release\net6.0-windows\publish\PRI_lab4.deps.json
-C:\Users\user\source\repos\PRI_lab4\bin\Release\net6.0-windows\publish\PRI_lab4.runtimeconfig.json
-C:\Users\user\source\repos\PRI_lab4\bin\Release\net6.0-windows\publish\PRI_lab4.pdb
