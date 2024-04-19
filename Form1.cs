@@ -63,7 +63,6 @@ namespace PRI_lab4
                 var result = await udpClient.ReceiveAsync();
                 string message = Encoding.UTF8.GetString(result.Buffer);
                 textBox3.Text += message+"\r\n";
-
             }
         }
     }
