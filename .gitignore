@@ -13,3 +13,7 @@ packages/
 *.nupkg
 *~
 *.bak
+*.log
+.vs/
+*.suo
+*.user
